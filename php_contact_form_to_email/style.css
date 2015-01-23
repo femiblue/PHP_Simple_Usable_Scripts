@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* 
+
+Author: Femi Bello
+Email: femibel@gmail.com
+Mobile: +2348068212113
+Website: www.femiblue.com
+
+
+ */
+
+* { margin:0; padding:0;}
+html, body { height:100%; }
+body { font-family:Arial, Helvetica, sans-serif; font-size:12px; min-width:1025px; background-color:#ddd;}
+
+.content{
+padding: 10px;	
+	
+}
+/* Use this to style the "Full Name, Email and Subject" area*/
+form input {
+	width:241px; height:18px;
+	font-size:1em;
+	color:#9d9d9d;
+	padding-left:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+/* Use this to style the "Message Body" area*/
+form textarea{
+   	border:1px solid #9d9d9d; 
+	
+	width:240px; height:118px;
+	font-size:1em;
+	color:#9d9d9d;
+	padding-left:5px;
+	margin-bottom:11px;
+	overflow:auto}
+
+/* Use this to style the "Send Mail" button*/
+.button {
+	width:100px; height:24px;
+	font-size:1em;
+	color:#333;
+	padding-left:5px;
+	padding-top:0px;
+	padding-bottom:2px;
+}
+
+/* Use this to style confirmation message */
+.confirm_msg{
+	padding:10px;
+	background-color:#D7EEDB;
+	border-bottom:5px solid #7DC891;
+	color:#7DC891;
+	width:100%;
+}
+
+/* Use this to style confirmation message */
+.error_msg{
+	padding:10px;
+	background-color: #F9D0D7;
+	border-bottom:5px solid  #EF2539;
+	color: #EF2539;
+	width:100%;
+}
